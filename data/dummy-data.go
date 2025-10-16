@@ -47,3 +47,14 @@ var Portfolio = models.PortfolioList{
 	},
 }
 
+var Blog = models.Blogs{
+	Blogs: []models.Blog{
+		{Img: "https://themewagon.github.io/picto/assets/blog-1-9asS__eh.jpg",Title: "Designing Engaging User Interfaces for M...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+		{Img: "https://themewagon.github.io/picto/assets/blog-2-Jn4pr14V.jpg",Title: "Tips for Effective Dashboard Layouts and...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+		{Img: "https://themewagon.github.io/picto/assets/blog-3-lkBU4Y-F.jpg",Title: "How to Visualize Data for Better Product...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+		{Img: "https://themewagon.github.io/picto/assets/blog-4-C9dcE4M3.jpg",Title: "Responsive Design: Adapting to All Devic...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+		{Img: "https://themewagon.github.io/picto/assets/blog-2-Jn4pr14V.jpg",Title: "Streamlining Workflows with UI/UX Best P...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+		{Img: "https://themewagon.github.io/picto/assets/blog-1-9asS__eh.jpg",Title: "Optimizing Interface Components for Perf...", Date: "22 Oct, 2020", TotalComments:"246 Comments" },
+	},
+}
+
