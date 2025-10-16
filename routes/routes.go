@@ -13,4 +13,5 @@ func SetupRoutes(app *fiber.App) {
 	app.Get("/portfolio", controllers.GetPortfolio)
 	app.Get("/blog", controllers.GetBlog)
 	app.Get("/services", controllers.GetServices)
+	app.Get("/testimonials", controllers.GetTestimonials)
 }

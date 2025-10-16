@@ -68,3 +68,11 @@ var Services = models.Services{
 	},
 }
 
+var Testimonials = models.Testimonials{
+	Testimonials: []models.Testimonial{
+		{Name: "Esther Howard", Job: "Managing Director, ABC Company", Comment: "From the initial consultation to the final delivery, every step was handled professionally. The end result was a product that not only met our needs but also impressed our stakeholders.Highly recommended!", Slug: "Working with this team was a fantastic experience. Their attention to detail and commitment to quality exceeded our expectations."},
+		{Name: "Ali Haider", Job: "COO, XYZ Company", Comment: "The team demonstrated a deep understanding of our requirements and delivered a solution that was both visually appealing and highly functional. Communication was clear throughout the project.", Slug: "Their expertise in UI/UX design helped us transform our digital presence and improve user engagement."},
+		{Name: "Elon Max", Job: "Managing Director, KFC Company", Comment: "They delivered our project on time and went above and beyond to ensure our satisfaction. The new features have made a significant difference for our users. We look forward to working together again.", Slug: "Professional, reliable, and creative-everything you want in a development partner."},
+	},
+}
+
