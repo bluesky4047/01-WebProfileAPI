@@ -58,3 +58,13 @@ var Blog = models.Blogs{
 	},
 }
 
+var Services = models.Services{
+	Title: "What I do?",
+	Description: "I specialize in designing user experiences, crafting engaging interfaces, and building robust web applications that deliver value and usability. My approach combines creativity and technical expertise to deliver solutions that are both visually appealing and highly functional for users.",
+	Services: []models.Service{
+		{Title: "User Experience (UX)",Description: "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability."},
+		{Title: "User Interface (UI)",Description: "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey."},
+		{Title: "Web Development",Description: "I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability."},
+	},
+}
+
