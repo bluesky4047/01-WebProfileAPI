@@ -76,3 +76,16 @@ var Testimonials = models.Testimonials{
 	},
 }
 
+var Contact = models.Contact{
+	Title: "Let’s discuss your Project",
+	Description: "I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.",
+	Details: []models.Detail{
+		{Name: "Address:", Description:"New Mexico, 31134"},
+		{Name: "My Email:", Description:"mymail@mail.com"},
+		{Name: "Call Me Now:", Description:"00-123 00000"},
+		{Name: "Facebook", Description:"facebook.com"},
+		{Name: "Instagram", Description:"instagram.com"},
+		{Name: "linkedin", Description:"linkedin"},
+	},
+}
+
