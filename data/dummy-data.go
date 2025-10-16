@@ -36,3 +36,14 @@ var Process = models.Process{
 	},
 }
 
+var Portfolio = models.PortfolioList{
+	Portfolio: []models.Portfolio{
+		{Title:"Product Admin Dashboard	", Description: "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.", Category: "UI-UX DESIGN" },
+		{Title:"Product Admin Dashboard	", Description: "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.", Category: "UI-UX DESIGN" },
+		{Title:"Product Admin Dashboard	", Description: "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.", Category: "UI-UX DESIGN" },
+		{Title:"Product Admin Dashboard	", Description: "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.", Category: "UI-UX DESIGN" },
+		{Title:"Product Admin Dashboard	", Description: "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.", Category: "UI-UX DESIGN" },
+		{Title:"Product Admin Dashboard	", Description: "Enhanced user experience by streamlining workflows and optimizing interface components and so on.", Category: "UI-UX DESIGN" },
+	},
+}
+
