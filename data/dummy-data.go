@@ -25,3 +25,14 @@ var About = models.About{
 	},
 }
 
+var Process = models.Process{
+	Title: "Work Process",
+	Description: "Driven by design and powered by code, I create digital interfaces that feel intuitive and perform seamlessly. Every layout, animation, and component is crafted with intention — merging usability with visual clarity, I blend clean design with efficient code to build engaging, user-friendly web experiences that stand out.",
+	Details: []models.Detail{
+		{Name: "1. Research", Description: "Design meets function in every pixel, blending clarity with intuitive motion."},
+		{Name: "2. Analyze", Description: "Crafting clean, thoughtful interfaces where form flows seamlessly into function and clarity."},
+		{Name: "3. Design", Description: "I design seamless digital experiences with precision, purpose, and a touch of elegance."},
+		{Name: "4. Launch", Description: "I craft digital products where thoughtful design meets performance-driven, responsive development."},
+	},
+}
+
