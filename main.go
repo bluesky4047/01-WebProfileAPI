@@ -4,12 +4,19 @@ import (
 	"my-fiber-app/routes"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 )
 
 func main() {
 	app := fiber.New()
 	app.Use(logger.New())
+
+	// ✅ Izinkan CORS
+	app.Use(cors.New(cors.Config{
+		AllowOrigins: "*", 
+		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
+	}))
 
 	// Routing
 	routes.SetupRoutes(app)
