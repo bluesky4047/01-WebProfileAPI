@@ -38,12 +38,12 @@ var Process = models.Process{
 
 var Portfolio = models.PortfolioList{
 	Portfolio: []models.Portfolio{
-		{Img:"data/img/card-1-D83uj-qZ.png",Title:"Product Admin Dashboard	", Description: "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.", Category: "UI-UX DESIGN" },
-		{Img:"data/img/card-2-BJ8-9N8h.png",Title:"Product Admin Dashboard	", Description: "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.", Category: "UI-UX DESIGN" },
-		{Img:"data/img/card-3-Ka1ll87R.png",Title:"Product Admin Dashboard	", Description: "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.", Category: "UI-UX DESIGN" },
-		{Img:"data/img/card-4-1lvzje-u.png",Title:"Product Admin Dashboard	", Description: "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.", Category: "UI-UX DESIGN" },
-		{Img:"data/img/card-5-TrbU7d8r.png",Title:"Product Admin Dashboard	", Description: "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.", Category: "UI-UX DESIGN" },
-		{Img:"data/img/card-6-CMi2awuo.png",Title:"Product Admin Dashboard	", Description: "Enhanced user experience by streamlining workflows and optimizing interface components and so on.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-1-D83uj-qZ.png",Title:"Product Admin Dashboard	", Description: "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-2-BJ8-9N8h.png",Title:"Product Admin Dashboard	", Description: "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-3-Ka1ll87R.png",Title:"Product Admin Dashboard	", Description: "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-4-1lvzje-u.png",Title:"Product Admin Dashboard	", Description: "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-5-TrbU7d8r.png",Title:"Product Admin Dashboard	", Description: "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.", Category: "UI-UX DESIGN" },
+		{Img:"/data/img/card-6-CMi2awuo.png",Title:"Product Admin Dashboard	", Description: "Enhanced user experience by streamlining workflows and optimizing interface components and so on.", Category: "UI-UX DESIGN" },
 	},
 }
 
