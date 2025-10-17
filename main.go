@@ -12,7 +12,7 @@ func main() {
 	app := fiber.New()
 	app.Use(logger.New())
 
-	// ✅ Izinkan CORS
+	// Izinkan CORS
 	app.Use(cors.New(cors.Config{
 		AllowOrigins: "*", 
 		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
@@ -20,6 +20,9 @@ func main() {
 
 	// Routing
 	routes.SetupRoutes(app)
+
+	// Serve folder data/img sebagai static file
+	app.Static("/data/img", "./data/img")
 
 	// (opsional) serve file static
 	app.Static("/", "./static")

@@ -10,7 +10,7 @@ var Home = models.Home{
 		{Name: "Projects Completed", Value: "250+"},
 		{Name: "Happy Clients", Value: "58"},
 	},
-	Img: "/data/img",
+	Img: "/data/img/person-CqOZwXV1.png",
 }
 
 var About = models.About{
