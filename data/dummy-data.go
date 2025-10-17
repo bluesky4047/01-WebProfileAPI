@@ -14,7 +14,7 @@ var Home = models.Home{
 }
 
 var About = models.About{
-	Img: "/data/img/hero-bg.jpg",
+	Img: "/data/img/person2-DvYIsw9m.png",
 	Title: "I am Professional User Experience Designer",
 	Description: "I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.I design and develop services for customers specializing creating stylish, modern websites, web services.",
 	Links: []models.Link{
