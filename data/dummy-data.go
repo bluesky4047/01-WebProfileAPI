@@ -10,11 +10,11 @@ var Home = models.Home{
 		{Name: "Projects Completed", Value: "250+"},
 		{Name: "Happy Clients", Value: "58"},
 	},
-	Img: "/data/img/person-CqOZwXV1.png",
+	Img: "/data/img/gilang/profile-1.webp",
 }
 
 var About = models.About{
-	Img: "/data/img/person2-DvYIsw9m.png",
+	Img: "/data/img/gilang/profile-2.webp",
 	Title: "I am Professional User Experience Designer",
 	Description: "I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.I design and develop services for customers specializing creating stylish, modern websites, web services.",
 	Links: []models.Link{
